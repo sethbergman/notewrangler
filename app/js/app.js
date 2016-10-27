@@ -1,4 +1,4 @@
-angular.module('NoteWrangler', ['ngRoute'])
-.config(['TweetableProvider', function(TweetableProvider){
-  TweetableProvider.setLength(40);
-}]);
+angular.module('NoteWrangler', ['ngRoute', 'ngResource'])
+.config(function(TweetableProvider) {
+  TweetableProvider.setLength(144);
+});
